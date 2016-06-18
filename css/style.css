@@ -1,0 +1,623 @@
+body{
+    margin: 0;
+    background-color: #edefed;
+    height:100%;
+    font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    background-color: #edefed;
+}
+#ind{
+    width: 100%;
+    height: ;
+    position:absolute;
+    left:0px;
+    overflow: ;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+.textrow{
+    width: 100%;
+    height:;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.block{
+    width: 100%;
+    padding:  30px 0;
+    height: auto;
+    background-color: #edefed;
+    min-height: 35%;
+    display: table;
+    border-bottom: 1px solid #CFCFCF;
+    position: relative;
+    z-index: 100;
+}
+.head{
+    width: 100%;
+    height: 100%;
+    z-index:0;
+    position: ;
+}
+.bg1:before {
+	height: 65%;
+    content: ' ';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../images/index.jpg) center 0 no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.background{
+    width: 100%;
+    height: 65%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size:cover;
+    background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+}
+.backgroundBlock{
+    width:100%;
+    height:100%;
+    text-align: center;
+    display: table;
+    color: white;
+    font-size: 1.8em;
+}
+.backgroundText{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+#index{
+    display:block;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    background-image: url("../images/head.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: table;
+}
+.header-txt{
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgba(0,0,0,0.4);
+}
+.header{
+    height: 300px;
+}
+.header-txt{
+    height: 300px;
+    color: white;
+}
+.head-title{
+    font-size: 2.5em;
+}
+.head-note{
+    font-size: 2.0em;
+}
+.list-body{
+    width: 60%;
+    margin-left: 20%;
+}
+.list-block{
+    width: 67%;
+    padding:  30px 0;
+    height: auto;
+    background-color: #edefed;
+    min-height: 35%;
+    display: table;
+    border-bottom: 1px solid #CFCFCF;
+    position: relative;
+    z-index: 100;
+    float: left; 
+}
+.list-right{
+    width: 33%;  
+    float: left; 
+}
+.all-kinds{
+    width: 80%;
+    padding-left: 30px;
+    margin-left: 15%;
+}
+.all-kinds p{
+    font-size: 1.5em;
+    color: #5a5d63;
+}
+.kinds-btn{
+    width: 30%;
+    min-width: 100px;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    text-align: center;
+    border: 1px solid #00bf55;
+    border-radius: 5px;
+    color: #00bf55;
+}
+.list-textrow{
+    width: 100%;
+    height:;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.list-activityRow{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+}
+.list-activityRow .activity-des{
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+@media screen and (max-width: 800px){
+    .header{
+        height: 200px;
+        width: 100%;
+    }
+    .header-txt{
+        height: 200px;
+        color: white;
+    }
+    .head-text p{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .head-title{
+        font-size: 1.5em;
+    }
+    .head-note{
+        font-size: 1.2em;
+    }
+    .list-body{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 650px){
+    .header{
+        height: 200px;
+        width: 100%;
+    }
+    .header-txt{
+        height: 200px;
+        color: white;
+    }
+    .head-text p{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .head-title{
+        font-size: 1.5em;
+    }
+    .head-note{
+        font-size: 1.2em;
+    }
+    .list-body{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .list-block{
+        width: 100%;
+    }
+    .list-activityRow{
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .list-body{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .list-right{
+        width: 100%;  
+        float: left; 
+    }
+    .all-kinds{
+        width: 100%;
+        margin-left: 0;
+    }
+    .kinds-btn{
+        width: 30%;
+        margin-left: 10%;
+    }
+    .all-kinds{
+        text-align: center;
+        padding-left: 0;
+    }
+}
+@media screen and (min-width: 800px){
+    .header{
+        height: 300px;
+        width: 100%;
+    }
+    .header-txt{
+        height: 300px;
+        color: white;
+    }
+    .head-text p{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .head-title{
+        font-size: 2.5em;
+    }
+    .head-note{
+        font-size: 2.0em;
+    }
+    .list-body{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+
+        /*--------------------------index--------------------------*/
+
+        .black-bg{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            opacity: 0.4;
+            display: none;
+            background-color: black;
+            z-index: 1000;
+        }
+        .text-left{
+            text-align: left;
+        }
+        .pc-textrow{
+            width: 60%;
+            height: 100%;
+            margin-left: 20%;
+        }
+        .pc-title{
+            font-size: 1.6em;
+            font-weight: 400;
+            color: #5a5d63;
+        }
+        .pc-textrow .pc-title{
+            margin: 0;
+            line-height: 1.3;
+        }
+        .pc-textrow .note{
+            font-size: 1.1em;
+            color: #686a6e;
+            margin-top: 10px;
+        }
+        .pc-textrow .button{
+            width: 20%;
+            min-width: 100px;
+            margin: 0 auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            color: #00bf55;
+            border: 1px solid #00bf55;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .pc-textrow .button:hover{
+            color: white;
+            background-color: #00bf55;
+        }
+        .cityRow{
+            width: 100%;
+            margin-left: ;
+            height: 300px;
+            background-image: url(images/index.jpg);
+            background-color: #b3beb8;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            display: table;
+            cursor: pointer;
+        }
+        .city-block{
+            width: 96.7%;
+            margin-left: 1.65%;
+        }
+        .city-des{
+            width: 100%;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .city-name{
+            font-size: 1.5em;
+            color: white;
+            font-weight: 800;
+            margin: 0;
+        }
+        .city-note{
+            font-size: 1.2em;
+            color: white;
+            font-weight: 600;
+            margin: 0;
+            margin-top: 10px;
+        }
+        .city-list{
+            width: 50%;
+            height: 50%;
+            position: fixed;
+            margin-left: 25%;
+            top: 25%;
+            border-radius: 5px;
+            background-color: #edefed;
+            
+            visibility: hidden;
+            z-index: 2000;
+        }
+        .city-list-head{
+            width: 100%;
+            height: 20%;
+            display: table;
+        }
+        .city-list-head div{
+            width: 20%;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .city-list-head div img{
+            width: 5%;
+            float: right;
+            display: table-cell;
+            margin-right: 20px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        .city-list-middle{
+            display: table;
+            width: 100%;
+            min-height: 60%;
+        }
+        .city-list-row{
+            width: 80%;
+            margin-left: 10%;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .city-name-btn{
+            width: 33%;
+            float: left;
+            margin-bottom: 8px;
+        }
+        .city-name-btn div{
+            width: 50%;
+            margin:  0 auto;
+            min-width: 100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 1px solid #00bf55;
+            border-radius: 5px;
+            color: #00bf55;
+            text-align: center;
+            cursor: pointer;
+        }
+        .inline-box{
+            margin-top: 5%;
+            width: 100%;
+            margin-left: ;
+        }
+        .inline-box .cityRow{
+            width: 50%; 
+            height: 200px;
+            float: left;
+            
+        }
+        .city2{
+            margin-left: 0;
+        }
+        .city3{
+            margin-left: 0;
+        }
+        .activityRow .activity-des{
+            width: 90%;
+            margin-left: 5%;
+        }
+        .activity-img{
+            width: 100%;
+            height: 200px;
+            background-image: url(../images/index.jpg);
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            position: relative;
+        }
+        .activityRow{
+            width: 33%;
+            height: auto;
+            float: left;
+            margin-bottom: 20px;
+        }
+        .activity-text{
+            width: 100%;
+            height: 20%;           
+            display: table;
+            position: relative;
+            color: white;
+            bottom: 0;
+            padding-bottom: 10px;
+            position: absolute;
+            text-align: left;
+            background-image: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,#000 100%);
+            background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,#000));
+            background-image: -moz-linear-gradient(top,rgba(0,0,0,0) 0,#000 100%);
+            background-image: -o-linear-gradient(top,rgba(0,0,0,0) 0,#000 100%);
+            background-image: linear-gradient(top,rgba(0,0,0,0) 0,#000 100%);
+        }
+        .activity-text .activity-title{
+            margin: 0;
+            margin-left: 10px;
+            font-size: 1.2em;
+            font-weight: 400;
+        }
+        .activity-text .activity-note{
+            margin: 0;
+            margin-left: 10px;
+            font-size: 1em;
+            font-weight: 300;
+        }
+        .pc-text{
+            width: 96.7%;
+            margin-left: 1.65%;
+        }
+        .footer{
+            width: 100%;
+            height: 40%;
+            background-color: #434546;
+        }
+        .footer-block{
+            width: 60%;
+            height: 100%;
+            margin-left: 20%;
+            display: table;
+        }
+        .footer-textrow{
+            width: 100%;
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            color: #a9b7b7;
+        }
+        .footer-icon{
+            width: 80%;
+            margin-left: 10%;
+        }
+        .footer-icon div{
+            width: 33%;
+            float: left;
+
+        }
+        .footer-icon div img{
+            width: 20%;
+        }
+        .footer-icon div p{
+            width: 80%;
+            margin-left: 10%;
+        }
+        .mobile-activity-text{
+            display: none;
+        }
+        @media screen and (max-width: 1200px){
+            .city-list-head div img{
+                width: 8%;
+            }
+            .activityRow{
+                width: 50%;
+                height: auto;
+                float: left;
+                margin-bottom: 20px;
+            }
+            .footer-block{
+                width: 80%;
+                margin-left: 10%;
+            }
+        }
+        @media screen and (max-width: 800px){
+            .city-list{
+                width: 80%;
+                margin-left: 10%;
+            }
+            .pc-textrow{
+                width: 80%;
+                height: 100%;
+                margin-left: 10%;
+            }
+            .footer{
+                height: 80px;
+            }
+            .footer .footer-textrow .pc-title{
+                display: none;
+            }
+            .footer-icon{
+                display: none;
+            }
+            .mobile-activity-text{
+                display: block;
+                background-color: azure;
+                border-radius: 5px;
+            }
+            .mobile-activity-text p{
+                margin: 0;
+            }
+        }
+        @media screen and (max-width: 650px){
+            .city-list{
+                width: 90%;
+                margin-left: 5%;
+                height: 70%;
+                top: 15%;
+            }
+            .city-name-btn{
+                width: 50%;
+            }
+            .city-list-head div img{
+                width: 10%;
+            }
+            .city-block{
+                width: 100%;
+                margin: 0;
+            }
+            .activityRow{
+                width: 100%;
+                height: auto;
+                float: left;
+                margin-bottom: 20px;
+            }
+            .activity-img{
+                border-radius: 5px;
+            }
+            .activity-text{
+                border-radius: 5px;
+            }
+            .pc-textrow{
+                width: 100%;
+                height: 100%;
+                margin-left: 0;
+            }
+            .cityRow{
+                width: 100%;
+                margin-left: 0;
+                height: 200px;
+            }
+            .inline-box .cityRow{
+                width: 100%;
+            }
+            .city2{
+                width: 100%;
+                height: 200px;
+                margin: 0;
+            }
+            .pc-text{
+                text-align: center;
+            }
+            .footer-block{
+                width: 80%;
+                margin-left: 10%;
+            }
+        }
